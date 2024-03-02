@@ -74,7 +74,7 @@ do
 			elif [ "$opt" == "99" ]
 			then
 				echo -e $green "Thank you for using my programm!\033[m"
-				break
+				exit 0
 			elif [ "$opt" == "1" ]
 			then
 				echo -e "[$excla] See the tutorial in $green info\033[m "
@@ -129,9 +129,9 @@ do
 				echo "00 0X0 X00X0 0X 00 0X 000 0000 X00X 00X0X0X 0 X0X0X0"
 				sleep 1
 			fi
-			break
+			
 		done
-
+	
 	fi
 
 done
