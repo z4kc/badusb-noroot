@@ -43,7 +43,7 @@ do
 			echo -e "\033[m"
 			echo ""
 			sleep 1
-			termux-setup-storage ; echo "echo type badusb to start the bdb console" >> /data/data/com.#/files/usr/etc/bash.bashrc ; echo "alias badusb='cd /data/data/com.#/files/home/bdb ; bash usbchecker.sh' " >> /data/data/com.#/files/bash.bashrc
+			termux-setup-storage ; echo "echo type badusb to start the bdb console" >> /data/data/com.termux/files/usr/etc/bash.bashrc ; echo "alias badusb='cd /data/data/com.#/files/home/bdb ; bash usbchecker.sh' " >> /data/data/com.termux/files/bash.bashrc
 			am start -a android.intent.action.VIEW -d https://www.mediafire.com/file/i727ltg8qabq4r5/Bugjaeger_Premium_v6.0-full_b258_%2528Paid%2529.apk/file ; mkdir /sdcard/BADUSB-FILES
 			echo -e "[$excla1] YOU NEED BUGJAEGER, DEBUG USB PERMISSION AND THE UNLOCKED SMARTPHONE!"
 			sed -i '46s/termux/#/' usbchecker.sh ; sed -i '47s/am/#/' usbchecker.sh
